@@ -1,3 +1,6 @@
+## 13.8.37
+* Make use of package.json types path.
+
 ### 13.8.24
 
 * Moving to common.js-style code

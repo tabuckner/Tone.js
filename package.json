@@ -1,6 +1,6 @@
 {
-  "name": "tone",
-  "version": "13.8.0",
+  "name": "@tabuckner/tone",
+  "version": "13.8.27",
   "description": "A Web Audio framework for making interactive music in the browser.",
   "main": "build/Tone.js",
   "files": [
@@ -11,6 +11,7 @@
     "tone.d.ts",
     "Tone"
   ],
+  "types": "tone.d.ts",
   "scripts": {
     "build": "npm run increment && npm run collect:deps && webpack -p --env.production",
     "codecov": "codecov",
